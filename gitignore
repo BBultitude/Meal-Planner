@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Data directory (contains user's meal data)
+data/
+*.json
+
+# Backup files
+backups/
+*.backup
+*.bak
+*.tar.gz
+
+# Environment variables
+.env
+.env.local
+
+# Docker
+.dockerignore
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# OS generated files
+Thumbs.db
+.DS_Store
